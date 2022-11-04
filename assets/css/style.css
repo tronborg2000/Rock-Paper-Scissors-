@@ -4,11 +4,14 @@
 }
 
 .logo {
-    height: 40px;
+    height: 100px;
     padding-right: 5px;
 }
 
-
+.headerdiv{
+    text-align: center;
+    font-size: 1.70em;
+}
 .game-area {
     background-color: #E6ECF0;
     box-sizing: border-box;

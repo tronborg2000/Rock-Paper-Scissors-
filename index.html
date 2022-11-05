@@ -24,13 +24,22 @@
         
             <div class="control area">
                 <p>Make your Choice</p>
-                <button class="buttons">Rock</button>
-                <button class="buttons">Paper</button>
-                <button class="buttons">Scissors</button>
-                <button class="buttons">Lizard</button>
-                <button class="buttons">Spock</button>
+                <button aria-label="Rock" data-choice="0" class="button">Rock</button>
+                <button aria-label="Paper" data-choice="1"class="button">Paper</button>
+                <button aria-label="Scissors" data-choice="2"class="button">Scissors</button>
+                <button aria-label="Lizard" data-choice="3"class="button">Lizard</button>
+                <button aria-label="Spock" data-choice="4"class="button">Spock</button>
                 </div>
-        <div class="result">Result</div>
+                <div id="messages"></div>
+                <div class="player">
+                    <h3 class="scores">Your Score: <span id="player-score">0</span></h3>
+                    <img id="player-image" src="assets/images/RPSLSLOGO.png" alt="Rock Paper Scissors Lizard Spock">
+                   
+                </div>
+                <div class="computer">
+                    <h3 class="scores">Computer Score: <span id="computer-score">0</span></h3>
+                    <img id="computer-image" src="assets/images/RPSLSLOGO.png" alt="Rock Paper Scissors Lizard Spock">
+                </div>
         
     </section>
     <script src="assets/js/script.js"></script>

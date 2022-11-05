@@ -24,9 +24,23 @@
     padding: 1%;
 }
 
-.result {
-    text-align: center;
-    font-size: 1.70em;
+.player {
+    
+    float: left;
+    width: 45%;
+}
+
+#player-image {
+    width: 75%;
+}
+
+.computer  {
+    float: right;
+    width: 45%
+}
+
+#computer-image {
+    width: 75%;
 }
       
     

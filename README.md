@@ -80,6 +80,9 @@ HTML, CSS & JavaScript special edition by Mike McGrath
 
 The live link can be found here - https://github.com/tronborg2000/Rock-Paper-Scissors-Lizard-Spock
 
+https://tronborg2000.github.io/Rock-Paper-Scissors-Lizard-Spock/
+
+
 ### Media
 
 - The photos used on the home and sign up page are from This Open Source site

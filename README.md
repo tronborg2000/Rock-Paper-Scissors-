@@ -30,33 +30,45 @@ Boiler code from Rock Paper scissors game tuturial
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ### Validator Testing 
 
 - HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
+    - No errors were returned when passing through the official [W3C validator] 
+    ![HTML VAL](assets/images/validatorhtml.jpg)
+    https://validator.w3.org/nu/?doc=https%3A%2F%2Ftronborg2000.github.io%2FRock-Paper-Scissors-Lizard-Spock%2F
 - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - No errors were found when passing through the official [(Jigsaw) validator]
+    ![CSS VAL](assets/images/CSSval.jpg)
+    https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftronborg2000.github.io%2FRock-Paper-Scissors-Lizard-Spock%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+
+
 - JavaScript
     - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
       - The following metrics were returned: 
-      - There are 11 functions in this file.
-      - Function with the largest signature takes 2 arguments, while the median is 0.
-      - Largest function has 10 statements in it, while the median is 3.
-      - The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+      - Metrics
+    - There are 4 functions in this file.
+
+    - Function with the largest signature take 2 arguments, while the median is 1.
+
+    - Largest function has 13 statements in it, while the median is 6.5.
+
+    - The most complex function has a cyclomatic complexity value of 22 while the median is 2.5.
+
+- Lighthouse Report 
+
+![Lighthouse](assets/images/lighthouse.jpg)
 
 
 ## Links used references. 
 
 https://www.youtube.com/watch?v=bd_1t-VY6R0 use of && correctly 
+
+Bro Code Youtube Javascript : https://www.youtube.com/watch?v=8dWL3wF_OMw&t=1664s
+
+HTML, CSS & JavaScript special edition by Mike McGrath
 
 
 

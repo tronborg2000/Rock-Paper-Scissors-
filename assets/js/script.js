@@ -14,4 +14,20 @@ for ( let button of buttons) {
     });
 }
 
+function playGame (playerchoice){
+    playerImage.scr= `assets/images/${choices[playerChoice]}`.jpg
+    playerImage.alt= choices[playerChoice];
+
+    let computerChoice = Math.floor(Math.random() * 4)
+
+    computerImage.src = `assets/images/${choices[computerChoice]}`.jpg;
+    computerImage.alt = choices[computerChoice];
+
+    let result = checkWinner(choices[choicesChoice], choices[playerChoice]);
+
+    updateScores(result);
+
+}
+
+
 

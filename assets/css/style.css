@@ -1,6 +1,28 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+
+}
+
 .heading {
     text-align: center;
     font-size: 2.5rem;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 80px;
+    padding-top: 5px;
+    text-align: center;
+    color: #fff;
+    
 }
 
 .logo {
@@ -17,11 +39,15 @@
     box-sizing: border-box;
     width: 85%;
     height: 65vh;
-    max-height: 450px;
+    max-height: 480px;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
+}
+
+#messages {
+    height: 20px;
 }
 
 .player {

@@ -1,15 +1,17 @@
-html{
+html {
     min-height: 100%;
     position: relative;
 }
 
-body {
-
-}
+body {}
 
 .heading {
     text-align: center;
     font-size: 2.5rem;
+}
+
+button {
+    cursor: pointer;
 }
 
 footer {
@@ -22,7 +24,7 @@ footer {
     padding-top: 5px;
     text-align: center;
     color: #fff;
-    
+
 }
 
 .logo {
@@ -30,10 +32,11 @@ footer {
     padding-right: 5px;
 }
 
-.headerdiv{
+.headerdiv {
     text-align: center;
     font-size: 1.70em;
 }
+
 .game-area {
     background-color: #E6ECF0;
     box-sizing: border-box;
@@ -48,10 +51,13 @@ footer {
 
 #messages {
     height: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .player {
-    
+
     float: left;
     width: 45%;
 }
@@ -60,7 +66,7 @@ footer {
     width: 60%;
 }
 
-.computer  {
+.computer {
     float: right;
     width: 45%
 }
@@ -73,5 +79,3 @@ footer {
     text-align: center;
     font-size: 1.70em;
 }
-      
-    

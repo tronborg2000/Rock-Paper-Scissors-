@@ -27,6 +27,10 @@ function playGame(playerchoice) {
 
 }
 
+/** Check winner function iterating through all possible computer and player choice options
+ *
+ */
+
 function checkWinner(compChoice, playerChoice) {
 
     let result;
@@ -50,6 +54,7 @@ function checkWinner(compChoice, playerChoice) {
     return result;
 }
 
+/** incrementing the scores as the game progresses based on winner */
 
 function updateScores(result) {
     const playerScore = document.getElementById("player-score");

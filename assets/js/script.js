@@ -10,7 +10,7 @@ const choices = ["rock", "paper", "scissors", "lizard", "spock"]
 for ( let button of buttons) {
     buttons.addEventListener("click", function() {
         let playerChoice= this.getAttribute("data-choice");
-        playgame(playerChoice);
+        playGame(playerChoice);
     });
 }
 
@@ -23,7 +23,7 @@ function playGame (playerchoice){
     computerImage.src = `assets/images/${choices[computerChoice]}`.jpg;
     computerImage.alt = choices[computerChoice];
 
-    let result = checkWinner(choices[choicesChoice], choices[playerChoice]);
+    let result = checkWinner(choices[computerChoice], choices[playerChoice]);
 
     updateScores(result);
 

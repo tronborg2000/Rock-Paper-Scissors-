@@ -16,7 +16,7 @@ function playGame(playerchoice) {
     playerImage.src = `assets/images/${choices[playerchoice]}.jpg`
     playerImage.alt = choices[playerchoice];
 
-    let computerChoice = Math.floor(Math.random() * 4)
+    let computerChoice = Math.floor(Math.random() * 5)
 
     computerImage.src = `assets/images/${choices[computerChoice]}.jpg`;
     computerImage.alt = choices[computerChoice];

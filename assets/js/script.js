@@ -10,6 +10,7 @@ restartBtn.addEventListener('click', function () {
     location.reload();
 })
 
+
 //add event listeners to buttons
 for (let button of buttons) {
     button.addEventListener("click", function () {
@@ -19,23 +20,22 @@ for (let button of buttons) {
 }
 
 function playGame(playerchoice) {
-    playerImage.src = `assets/images/${choices[playerchoice]}.jpg`
-    playerImage.alt = choices[playerchoice];
+    if (!gameover) {
 
-    let computerChoice = Math.floor(Math.random() * 5)
+        playerImage.src = `assets/images/${choices[playerchoice]}.jpg`
+        playerImage.alt = choices[playerchoice];
 
-    computerImage.src = `assets/images/${choices[computerChoice]}.jpg`;
-    computerImage.alt = choices[computerChoice];
+        let computerChoice = Math.floor(Math.random() * 5)
 
-    let result = checkWinner(choices[computerChoice], choices[playerchoice]);
+        computerImage.src = `assets/images/${choices[computerChoice]}.jpg`;
+        computerImage.alt = choices[computerChoice];
 
-    updateScores(result);
+        let result = checkWinner(choices[computerChoice], choices[playerchoice]);
+
+        updateScores(result);
+    }
 
 }
-
-/** Check winner function iterating through all possible computer and player choice options
- *
- */
 
 function checkWinner(compChoice, playerChoice) {
 
@@ -59,8 +59,6 @@ function checkWinner(compChoice, playerChoice) {
 
     return result;
 }
-
-/** incrementing the scores as the game progresses based on winner */
 
 function updateScores(result) {
     const playerScore = document.getElementById("player-score");
@@ -88,6 +86,7 @@ function updateScores(result) {
         alert("GAME OVER!")
         gameover = true;
     }
+
 }
 
 

@@ -3,6 +3,12 @@ const playerImage = document.getElementById("player-image");
 const computerImage = document.getElementById("computer-image");
 const message = document.getElementById("messages")
 const choices = ["ROCK", "PAPER", "SCISSORS", "LIZARD", "SPOCK"]
+let gameover = false;
+const restartBtn = document.getElementById("restart");
+
+restartBtn.addEventListener('click', function () {
+    location.reload();
+})
 
 //add event listeners to buttons
 for (let button of buttons) {
@@ -76,6 +82,11 @@ function updateScores(result) {
         newScore = parseInt(playerScore.textContent) + 1;
         playerScore.textContent = newScore;
         message.textContent = "You won!";
+    }
+
+    if (newScore === 5) {
+        alert("GAME OVER!")
+        gameover = true;
     }
 }
 
